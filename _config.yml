@@ -18,11 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Tommaso Van Der Meer
+title: Tommaso<br>Van Der Meer
+subtitle: PhD Student @<br>University of Siena
 email: tommasovdm@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This is the Github Pages site of Tommaso Van Der Meer.
-  I am a software engineer and a tech enthusiast.
+# description: >- # this means to ignore newlines until "baseurl:"
+#   I work mainly on autonomous navigation of mobile robots in 
+#   crowded environments using deep reinforcement learning techniques.
+#   <br><br>
+#   This is my personal website, where I share my research projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tommasovandermeer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  TommasoVandermeer
@@ -35,6 +38,7 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-github-metadata
 
 # Exclude from processing.
 # The following items will not be processed, by default.

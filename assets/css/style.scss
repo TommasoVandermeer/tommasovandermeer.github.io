@@ -2,3 +2,39 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+.fancy-list {
+  list-style: none;              
+  padding-left: 0;               
+  margin: 1em 0;                 
+}
+
+.fancy-list li {
+  position: relative;
+  padding-left: 1.5em;           
+  margin: 0.5em 0;
+  font-size: 1.05em;
+  cursor: default;
+  transition: color 0.2s ease-in-out;
+}
+
+.fancy-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #24292f;     /* default: GitHub dark gray */
+  border-radius: 50%;            
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.fancy-list li:hover {
+  color: #A52A2A;                /* text turns GitHub red */
+}
+
+.fancy-list li:hover::before {
+  background-color: #A52A2A;     /* bullet turns red */
+}
