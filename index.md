@@ -16,7 +16,4 @@ I’m a <b>PhD student</b> in robotics at the University of Siena, working on re
 </ul>
 
 <h2>Publications</h2>
-Work in progress
-
-<h2>Contacts</h2>
-Email: <a href="mailto:tommaso.vandermeer@unisi.it">tommaso.vandermeer@unisi.it</a>
+{% include publications.html link=true style="apa" %}

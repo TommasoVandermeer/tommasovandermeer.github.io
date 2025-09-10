@@ -30,7 +30,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tommasovandermeer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  TommasoVandermeer
 show_downloads: false
-google_analytics: G-GKZF7DQ602
+google_analytics: 
 logo: /assets/img/profile.jpeg
 
 # Build settings
